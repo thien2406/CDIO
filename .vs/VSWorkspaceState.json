@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\WebApplication1",
+    "\\WebApplication1\\WebApplication1",
+    "\\WebApplication1\\WebApplication1\\Pages",
+    "\\WebApplication1\\WebApplication1\\wwwroot",
+    "\\WebApplication1\\WebApplication1\\wwwroot\\lib",
+    "\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap",
+    "\\WebApplication1\\WebApplication1\\wwwroot\\lib\\jquery",
+    "\\WebApplication1\\WebApplication1\\wwwroot\\lib\\jquery-validation",
+    "\\WebApplication1\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive"
+  ],
+  "SelectedNode": "\\WebApplication1\\WebApplication1\\Pages\\EnergyDashboard.cshtml",
+  "PreviewInSolutionExplorer": false
+}

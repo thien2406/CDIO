@@ -1,0 +1,46 @@
+﻿/* Footer styles */
+footer {
+    background-color: #343a40; /* Dark background for a deep contrast */
+    color: #dcdcdc; /* Slightly off-white text for softer appearance */
+    padding: 2rem 0; /* Comfortable padding top and bottom */
+    border-top: 4px solid #555; /* Add a top border for some visual separation */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Soft shadow to "lift" the footer */
+}
+
+    footer a {
+        color: inherit; /* Links use the same color as footer text for consistency */
+        transition: color 0.3s ease-in-out; /* Smooth transition for hover effects */
+        padding: 0.25rem; /* Padding for a larger clickable area */
+    }
+
+        footer a:hover, footer a:focus {
+            color: #ffffff; /* Bright white text on hover/focus for visibility */
+            text-decoration: none; /* No underline to keep it clean */
+        }
+
+/* Responsive adjustments as needed */
+@media (max-width: 768px) {
+    footer {
+        padding: 1.5rem 0; /* Slightly reduce padding for small screens */
+        text-align: center; /* Center align text for a stacked layout */
+    }
+
+        footer .row {
+            flex-direction: column; /* Stack the columns vertically on small screens */
+        }
+}
+
+/* Icon adjustments for better alignment and spacing */
+footer i.fa {
+    margin-right: 0.5rem; /* Ensure icons have space on the right */
+}
+
+/* Soften the footer content for less visual strain */
+footer h5 {
+    color: #aaa; /* Lighter color for headings to reduce dominance */
+    margin-bottom: 0.75rem; /* Space below the heading */
+}
+
+footer p, footer ul {
+    font-size: 0.9rem; /* Small font size for a tidy appearance */
+}

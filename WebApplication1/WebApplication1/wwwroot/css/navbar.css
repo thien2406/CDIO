@@ -1,0 +1,104 @@
+﻿/* Navbar styling for soft and modern look */
+.navbar {
+    background-color: #5cacee; /* A softer shade of blue */
+    border-radius: 15px; /* Rounded corners for a softer look */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 0.7rem 1rem; /* Adequate padding for touch targets */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.navbar-brand {
+    font-weight: 600; /* Semi-bold font weight for brand */
+    color: #ffffff; /* White color for contrast */
+    transition: transform 0.3s ease; /* Smooth transform transition for hover effect */
+}
+
+    .navbar-brand:hover, .navbar-brand:focus {
+        transform: scale(1.05); /* Slightly enlarge on hover */
+        text-decoration: none; /* Remove underline effect */
+    }
+
+.navbar-toggler {
+    border: none; /* Remove the border from the toggler */
+    outline: none; /* Remove the focus outline */
+}
+
+.navbar-toggler-icon {
+    background-image: url("..."); /* You can use a custom icon here */
+}
+
+.nav-link {
+    color: #ffffff; /* White color for nav links */
+    margin-right: 15px; /* Right margin for spacing */
+    transition: color 0.3s ease; /* Color transition for smooth hover effect */
+}
+
+    .nav-link:hover, .nav-link:focus {
+        color: #aaddff; /* Lighter blue on hover for visibility */
+    }
+
+.nav-item.active .nav-link {
+    color: #ffe680; /* Highlight color for the active nav-link */
+}
+
+@media (max-width: 991px) {
+    .navbar-nav .nav-link {
+        margin: 10px 0; /* More vertical spacing in mobile view */
+    }
+}
+
+/* Soft and subtle animation for the navbar-brand on hover */
+@keyframes gentlePulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+    animation: gentlePulse 1s infinite alternate;
+}
+/* Login and Register button styles */
+.nav-link.login, .nav-link.register {
+    background-color: #f8f9fa; /* Light background for the buttons */
+    color: #007bff; /* Blue text to match the navbar theme */
+    margin-left: 0.5rem; /* Add some space between the links */
+    border-radius: 0.25rem; /* Rounded corners */
+    transition: all 0.2s; /* Smooth transition for hover effects */
+}
+
+    .nav-link.login:hover, .nav-link.register:hover {
+        background-color: #e2e6ea; /* Slightly darker background on hover */
+        color: #0056b3; /* Darker blue text on hover */
+        text-decoration: none; /* No underline on hover */
+    }
+
+/* Make the Register link look like a button */
+.nav-link.register {
+    padding: 0.375rem 0.75rem; /* Padding to increase the area */
+    border: 1px solid transparent; /* Border to make it look like a button */
+}
+
+    .nav-link.register:hover {
+        border-color: #007bff; /* Blue border on hover */
+    }
+/* Style adjustments for dropdown */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block; /* Show the dropdown menu on hover */
+}
+
+.dropdown-menu {
+    margin-top: 0; /* Align dropdown menu right below the nav item */
+}
+
+/* Style for dropdown items */
+.dropdown-item {
+    transition: background-color 0.2s ease; /* Smooth transition for background color */
+}
+
+    .dropdown-item:hover {
+        background-color: #f8f9fa; /* Slightly lighter background on hover */
+    }

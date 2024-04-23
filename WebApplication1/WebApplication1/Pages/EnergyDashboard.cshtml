@@ -1,0 +1,308 @@
+﻿@page
+@model WebApplication1.Pages.EnergyDashboardModel
+@{
+    ViewData["Title"] = "Energy Monitoring Dashboard";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/dashboard.css">
+    <link rel="stylesheet" href="~/css/footer.css">
+    <link rel="stylesheet" href="~/css/site.css">
+    <link rel="stylesheet" href="~/css/navbar.css">
+
+    <title>@ViewData["Title"]</title>
+    <style>
+        .toggle {
+            width: 100px; /* chiều rộng của toggle */
+            height: 50px; /* chiều cao của toggle */
+        }
+
+            .toggle .toggle-handle {
+                position: relative;
+                top: 5%; /* khoảng cách từ trên xuống */
+            }
+
+        .toggle-on.btn, .toggle-off.btn {
+            line-height: 40px; /* chiều cao của nội dung bên trong */
+            font-size: 16px; /* cỡ chữ */
+        }
+
+        .toggle-on {
+            padding-right: 20px; /* padding phải của nút on */
+        }
+
+        .toggle-off {
+            padding-left: 20px; /* padding trái của nút off */
+        }
+
+        .btn-primary {
+            background-color: #007bff; /* màu nền khi nút ở trạng thái on */
+            color: white; /* màu chữ khi nút ở trạng thái on */
+        }
+
+        .btn-danger {
+            background-color: #dc3545; /* màu nền khi nút ở trạng thái off */
+            color: white; /* màu chữ khi nút ở trạng thái off */
+        }
+
+        .card-body {
+            background-color: #f8f9fa; /* Light grey background */
+            border-radius: 0.25rem; /* Rounded corners for the card */
+            padding: 1.25rem; /* Spacing inside the card */
+            margin-bottom: 1rem; /* Space between cards */
+        }
+
+        /* Style the labels for a better visual hierarchy */
+        label {
+            display: block; /* Make the label take up the full width */
+            color: #495057; /* Dark grey color for text for better readability */
+            font-size: 0.875rem; /* Slightly smaller font size */
+            margin-bottom: 0.5rem; /* Space between the label and input */
+            font-weight: 500; /* Medium weight font */
+        }
+
+        /* Style the input fields for a modern look */
+        /* Base styles for range input to define size and appearance */
+        input[type=range] {
+            -webkit-appearance: none; /* Remove default style for WebKit/Blink */
+            width: 50%; /* Width of the slider */
+            margin: 10px 0; /* Vertical spacing */
+            background: transparent; /* No background color */
+        }
+
+            /* Styles for the slider track */
+            input[type=range]::-webkit-slider-runnable-track {
+                width: 100%; /* Full width of the slider */
+                height: 8px; /* Height of the track */
+                background: #ddd; /* Light grey background */
+                border-radius: 4px; /* Rounded corners for the track */
+                cursor: pointer; /* Cursor to indicate it's draggable */
+            }
+
+            input[type=range]:focus::-webkit-slider-runnable-track {
+                background: #ccc; /* Slightly darker track for focus state */
+            }
+
+            /* Styles for the slider thumb for WebKit/Blink */
+            input[type=range]::-webkit-slider-thumb {
+                -webkit-appearance: none; /* Remove default style */
+                margin-top: -6px; /* Align the thumb with the track */
+                width: 20px; /* Width and height of the thumb */
+                height: 20px;
+                background: #007bff; /* Blue background color */
+                border-radius: 50%; /* Make it circular */
+                cursor: pointer; /* Cursor to indicate it's draggable */
+                transition: background .3s ease-in-out; /* Smooth background color transition */
+            }
+
+            input[type=range]:hover::-webkit-slider-thumb {
+                background: #0056b3; /* Darker blue on hover */
+            }
+
+            /* Apply similar styles for Firefox */
+            input[type=range]::-moz-range-track {
+                background: #ddd;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            input[type=range]::-moz-range-thumb {
+                width: 20px;
+                height: 20px;
+                background: #007bff;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+
+            /* Apply similar styles for IE */
+            input[type=range]::-ms-track {
+                background: transparent;
+                border-color: transparent;
+                border-width: 6px 0;
+                color: transparent; /* Required for proper track sizing in IE */
+            }
+
+            input[type=range]::-ms-thumb {
+                width: 20px;
+                height: 20px;
+                background: #007bff;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+
+        /* Style for number inputs */
+        input[type="number"] {
+            width: calc(50% - 12px); /* Align width with slider */
+            padding: 8px; /* Padding inside the input */
+            margin-right: 10px; /* Spacing between number input and slider */
+            border: 1px solid #ced4da; /* Border around the input */
+            border-radius: 4px; /* Rounded borders for the input fields */
+            line-height: 1.5; /* Space for text */
+            font-size: 1rem; /* Readable font size */
+            display: inline-block; /* Allows the number input to sit alongside the slider */
+        }
+
+    </style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Solar Energy Management System</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/About">About</a>
+                    </li>
+                    <!-- Dropdown for login and registration -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            User
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="/Login">Logout</a>
+                            <!-- More items can be added here -->
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </nav>
+    <div class="card-body">
+        Điện áp hiện tại: @Model.EnergyData.Voltage V<br />
+        <label for="minVoltage">Thiết lập điện áp tối thiểu:</label>
+        <input type="range" id="minVoltageSlider" name="minVoltage" min="0" max="100"
+               value="@Model.EnergyData.MinVoltage" oninput="minVoltageValue.value = this.value" />
+        <input type="number" id="minVoltageValue" name="minVoltage" min="0" max="100"
+               value="@Model.EnergyData.MinVoltage" oninput="minVoltageSlider.value = this.value" />
+        <br />
+
+        <label for="maxVoltage">Thiết lập điện áp tối đa:</label>
+        <input type="range" id="maxVoltageSlider" name="maxVoltage" min="0" max="100"
+               value="@Model.EnergyData.MaxVoltage" oninput="maxVoltageValue.value = this.value" />
+        <input type="number" id="maxVoltageValue" name="maxVoltage" min="0" max="100"
+               value="@Model.EnergyData.MaxVoltage" oninput="maxVoltageSlider.value = this.value" />
+        <br />
+    </div>
+
+    <div class="card-body">
+        Dòng điện hiện tại: @Model.EnergyData.Current A<br />
+        <label for="minCurrent">Thiết lập dòng điện tối thiểu:</label>
+        <input type="range" id="minCurrentSlider" name="minCurrent" min="0" max="100"
+               value="@Model.EnergyData.MinCurrent" oninput="minCurrentValue.value = this.value" />
+        <input type="number" id="minCurrentValue" name="minCurrent" min="0" max="100"
+               value="@Model.EnergyData.MinCurrent" oninput="minCurrentSlider.value = this.value" />
+        <br />
+
+        <label for="maxCurrent">Thiết lập dòng điện tối đa:</label>
+        <input type="range" id="maxCurrentSlider" name="maxCurrent" min="0" max="100"
+               value="@Model.EnergyData.MaxCurrent" oninput="maxCurrentValue.value = this.value" />
+        <input type="number" id="maxCurrentValue" name="maxCurrent" min="0" max="100"
+               value="@Model.EnergyData.MaxCurrent" oninput="maxCurrentSlider.value = this.value" />
+        <br />
+    </div>
+
+    <div class="dashboard">
+        <div class="card" id="voltage-out">
+            <div class="card-header bg-primary">Voltage Out</div>
+            <div class="card-body">0 V</div>
+        </div>
+        <div class="card" id="current-input">
+            <div class="card-header bg-success">Power Out</div>
+            <div class="card-body">0 A</div>
+        </div>
+        <!-- ... Other cards ... -->
+        <div class="card toggle-card">
+            <div class="card-header">On and Off</div>
+            <div class="card-body">
+                <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+    <script>
+        document.querySelectorAll('.switch input').forEach((checkbox) => {
+            checkbox.addEventListener('change', function () {
+                console.log('Power is ' + (this.checked ? 'On' : 'Off'));
+                // You can also add code here to send this status to your server.
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var minVoltageInput = document.getElementById('min-voltage');
+            if (minVoltageInput) {
+                minVoltageInput.addEventListener('input', function () {
+                    // Lấy giá trị mới và làm gì đó với nó
+                    var minVoltage = this.value;
+                });
+            }
+        });
+    </script>
+        </div>
+    </div>
+    <footer class="bg-dark text-white">
+        <div class="container">
+            <div class="row py-4">
+                <div class="col-md-3 mt-md-0 mt-3">
+                    <h5 class="text-uppercase">Company Name</h5>
+                    <p></p>
+                </div>
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <h5 class="text-uppercase">Products</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#!" class="text-white"></a></li>
+                        <li><a href="#!" class="text-white"></a></li>
+                        <li><a href="#!" class="text-white"></a></li>
+                        <li><a href="#!" class="text-white"></a></li> 
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <h5 class="text-uppercase">Useful Links</h5>
+                    <ul class="list-unstyled">
+                      <li><a href="#!" class="text-white">Your Account</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <h5 class="text-uppercase">Contact</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-home mr-3"></i> </li>
+                        <li><i class="fas fa-envelope mr-3"></i> </li>
+                        <li><i class="fas fa-phone mr-3"></i> 000000000</li>
+                        <li><i class="fas fa-print mr-3"></i> 00000009</li> 
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </footer>
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
