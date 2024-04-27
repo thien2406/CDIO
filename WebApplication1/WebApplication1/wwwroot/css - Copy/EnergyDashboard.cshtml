@@ -162,13 +162,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" asp-area="" asp-page="/Index">Home</a>
+                        <a class="nav-link" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" asp-area="" asp-page="/About">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" asp-area="" asp-page="/Detail">Detail</a>
+                        <a class="nav-link" href="/About">About</a>
                     </li>
                     <!-- Dropdown for login and registration -->
                     <li class="nav-item dropdown">
@@ -176,13 +173,14 @@
                             User
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" asp-area="" asp-page="/Login">Logout</a>
+                            <a class="dropdown-item" href="/Login">Logout</a>
                             <!-- More items can be added here -->
                         </div>
                     </li>
                 </ul>
             </div>
         </div>
+    </nav>
     </nav>
     <div class="card-body">
         Điện áp hiện tại: @Model.EnergyData.Voltage V<br />
@@ -269,19 +267,19 @@
             <div class="row py-4">
                 <div class="col-md-3 mt-md-0 mt-3">
                     <h5 class="text-uppercase">Company Name</h5>
-                    <p>CDIO</p>
+                    <p></p>
                 </div>
                 <div class="col-md-3 mb-md-0 mb-3">
                     <h5 class="text-uppercase">Products</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#!" class="text-white"></a>Solar energy management</li>
+                        <li><a href="#!" class="text-white"></a></li>
                         <li><a href="#!" class="text-white"></a></li>
                         <li><a href="#!" class="text-white"></a></li>
                         <li><a href="#!" class="text-white"></a></li> 
                     </ul>
                 </div>
                 <div class="col-md-3 mb-md-0 mb-3">
-                    <h5 class="text-uppercase">Useful Links</h5>    
+                    <h5 class="text-uppercase">Useful Links</h5>
                     <ul class="list-unstyled">
                       <li><a href="#!" class="text-white">Your Account</a></li>
 
@@ -290,10 +288,10 @@
                 <div class="col-md-3 mb-md-0 mb-3">
                     <h5 class="text-uppercase">Contact</h5>
                     <ul class="list-unstyled">
-                        <li><i class="fas fa-home mr-3"></i>000000 </li>
+                        <li><i class="fas fa-home mr-3"></i> </li>
                         <li><i class="fas fa-envelope mr-3"></i> </li>
-                        <li><i class="fas fa-phone mr-3"></i> </li>
-                        <li><i class="fas fa-print mr-3"></i> </li> 
+                        <li><i class="fas fa-phone mr-3"></i> 000000000</li>
+                        <li><i class="fas fa-print mr-3"></i> 00000009</li> 
                     </ul>
                 </div>
             </div>

@@ -5,6 +5,26 @@
       "PackagePath": "staticwebassets\\WebApplication1.bundle.scp.css"
     },
     {
+      "Id": "D:\\CDIO\\WebApplication1\\WebApplication1\\wwwroot\\css - Copy\\EnergyDashboard.cshtml.cs",
+      "PackagePath": "staticwebassets\\css - Copy\\EnergyDashboard.cshtml.cs"
+    },
+    {
+      "Id": "D:\\CDIO\\WebApplication1\\WebApplication1\\wwwroot\\css - Copy\\dashboard.css",
+      "PackagePath": "staticwebassets\\css - Copy\\dashboard.css"
+    },
+    {
+      "Id": "D:\\CDIO\\WebApplication1\\WebApplication1\\wwwroot\\css - Copy\\footer.css",
+      "PackagePath": "staticwebassets\\css - Copy\\footer.css"
+    },
+    {
+      "Id": "D:\\CDIO\\WebApplication1\\WebApplication1\\wwwroot\\css - Copy\\navbar.css",
+      "PackagePath": "staticwebassets\\css - Copy\\navbar.css"
+    },
+    {
+      "Id": "D:\\CDIO\\WebApplication1\\WebApplication1\\wwwroot\\css - Copy\\site.css",
+      "PackagePath": "staticwebassets\\css - Copy\\site.css"
+    },
+    {
       "Id": "D:\\CDIO\\WebApplication1\\WebApplication1\\wwwroot\\css\\dashboard.css",
       "PackagePath": "staticwebassets\\css\\dashboard.css"
     },

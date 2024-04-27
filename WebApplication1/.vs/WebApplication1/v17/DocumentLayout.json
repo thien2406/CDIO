@@ -3,12 +3,68 @@
   "WorkspaceRootPath": "D:\\CDIO\\WebApplication1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|d:\\cdio\\webapplication1\\webapplication1\\pages\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|d:\\cdio\\webapplication1\\webapplication1\\pages\\energydashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\energydashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|d:\\cdio\\webapplication1\\webapplication1\\pages\\about.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\about.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|d:\\cdio\\webapplication1\\webapplication1\\pages\\detail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\detail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|d:\\cdio\\webapplication1\\webapplication1\\pages\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|D:\\CDIO\\WebApplication1\\webapplication1\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|D:\\CDIO\\WebApplication1\\webapplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|D:\\CDIO\\WebApplication1\\webapplication1\\pages\\html.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\html.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|D:\\CDIO\\WebApplication1\\webapplication1\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|D:\\CDIO\\WebApplication1\\webapplication1\\wwwroot\\css\\navbar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\css\\navbar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|D:\\CDIO\\WebApplication1\\webapplication1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|D:\\CDIO\\WebApplication1\\webapplication1\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|D:\\CDIO\\WebApplication1\\webapplication1\\wwwroot\\css\\footer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\css\\footer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|D:\\CDIO\\WebApplication1\\webapplication1\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|D:\\CDIO\\WebApplication1\\webapplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|D:\\CDIO\\WebApplication1\\webapplication1\\pages\\energydashboard.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\energydashboard.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|D:\\CDIO\\WebApplication1\\webapplication1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -17,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|D:\\CDIO\\WebApplication1\\webapplication1\\pages\\privacy.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\privacy.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|D:\\CDIO\\WebApplication1\\webapplication1\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|D:\\CDIO\\WebApplication1\\webapplication1\\controllers\\energydatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,10 +103,6 @@
       "RelativeMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\html.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|D:\\CDIO\\WebApplication1\\webapplication1\\pages\\html.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\html.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|D:\\CDIO\\WebApplication1\\webapplication1\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -67,16 +115,8 @@
       "RelativeMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|D:\\CDIO\\WebApplication1\\webapplication1\\pages\\energydashboard.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\pages\\energydashboard.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|D:\\CDIO\\WebApplication1\\webapplication1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|D:\\CDIO\\WebApplication1\\webapplication1\\wwwroot\\css\\footer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\css\\footer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|D:\\CDIO\\WebApplication1\\webapplication1\\pages\\error.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -91,18 +131,6 @@
       "RelativeMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\energydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|D:\\CDIO\\WebApplication1\\webapplication1\\wwwroot\\css\\navbar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\css\\navbar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|D:\\CDIO\\WebApplication1\\webapplication1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|D:\\CDIO\\WebApplication1\\webapplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|D:\\CDIO\\WebApplication1\\webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -113,10 +141,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|D:\\CDIO\\WebApplication1\\webapplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|D:\\CDIO\\WebApplication1\\webapplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{30FB973A-36EB-413C-BEE8-D8EB7FBF3646}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -126,7 +150,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -138,225 +162,122 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\appsettings.json",
-              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
-              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\appsettings.json",
-              "RelativeToolTip": "WebApplication1\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-06T04:28:26.093Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "WebApplication1\\appsettings.Development.json",
-              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\appsettings.Development.json",
-              "RelativeToolTip": "WebApplication1\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-12T13:32:56.017Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Program.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
-              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Program.cs",
-              "RelativeToolTip": "WebApplication1\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "Detail.cshtml.cs",
+              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\Detail.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Detail.cshtml.cs",
+              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\Detail.cshtml.cs",
+              "RelativeToolTip": "WebApplication1\\Pages\\Detail.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T04:26:36.67Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EnergyDataController.cs",
-              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Controllers\\EnergyDataController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\EnergyDataController.cs",
-              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Controllers\\EnergyDataController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\EnergyDataController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T03:54:54.635Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebApplication1\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T09:40:20.285Z"
+              "WhenOpened": "2024-04-27T14:59:49.237Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\Detail.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Detail.cshtml",
+              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\Detail.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\Detail.cshtml",
+              "ViewState": "AQIAAJIAAAAAAAAAAAAowK4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T14:57:50.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "About.cshtml.cs",
+              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\About.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\About.cshtml.cs",
+              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\About.cshtml.cs",
+              "RelativeToolTip": "WebApplication1\\Pages\\About.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T14:50:57.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\About.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\About.cshtml",
+              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\About.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T14:44:50.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "EnergyDashboard.cshtml",
               "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\EnergyDashboard.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Pages\\EnergyDashboard.cshtml",
               "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\EnergyDashboard.cshtml",
               "RelativeToolTip": "WebApplication1\\Pages\\EnergyDashboard.cshtml",
-              "ViewState": "AQIAAGgAAAAAAAAAAAAAwJUAAAAJAAAA",
+              "ViewState": "AQIAAEIAAAAAAAAAAADwvyoBAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-06T04:31:10.491Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "dashboard.css",
-              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\wwwroot\\css\\dashboard.css",
-              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\css\\dashboard.css",
-              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\wwwroot\\css\\dashboard.css",
-              "RelativeToolTip": "WebApplication1\\wwwroot\\css\\dashboard.css",
-              "ViewState": "AQIAAJEAAAAAAAAAAAAowKQAAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "bootstrap.css",
+              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ViewState": "AQIAAAUBAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-12T14:17:47.862Z",
+              "WhenOpened": "2024-04-12T07:27:19.02Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Privacy.cshtml.cs",
-              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\Privacy.cshtml.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Privacy.cshtml.cs",
-              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\Privacy.cshtml.cs",
-              "RelativeToolTip": "WebApplication1\\Pages\\Privacy.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T07:57:35.975Z"
+              "DocumentIndex": 13,
+              "Title": "jquery.js",
+              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ViewState": "AQIAAMwAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-24T06:35:34.609Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Privacy.cshtml",
-              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\Privacy.cshtml",
-              "RelativeToolTip": "WebApplication1\\Pages\\Privacy.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACQAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T07:28:05.882Z"
+              "WhenOpened": "2024-04-12T09:40:20.285Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Index.cshtml.cs",
-              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\Index.cshtml.cs",
-              "RelativeToolTip": "WebApplication1\\Pages\\Index.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T07:56:24.844Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Index.cshtml",
-              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\Index.cshtml",
-              "RelativeToolTip": "WebApplication1\\Pages\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-06T04:26:49.71Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "html.cshtml.cs",
-              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\html.cshtml.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Pages\\html.cshtml.cs",
-              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\html.cshtml.cs",
-              "RelativeToolTip": "WebApplication1\\Pages\\html.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T04:10:42.583Z"
+              "Title": "navbar.css",
+              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\wwwroot\\css\\navbar.css",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\css\\navbar.css",
+              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\wwwroot\\css\\navbar.css",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\css\\navbar.css",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEkAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-12T14:52:53.739Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "html.cshtml",
-              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\html.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Pages\\html.cshtml",
-              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\html.cshtml",
-              "RelativeToolTip": "WebApplication1\\Pages\\html.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAA0AAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-06T04:03:32.75Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\Error.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Error.cshtml",
-              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\Error.cshtml",
-              "RelativeToolTip": "WebApplication1\\Pages\\Error.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T07:28:02.386Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Pages\\_ViewImports.cshtml",
-              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\_ViewImports.cshtml",
-              "RelativeToolTip": "WebApplication1\\Pages\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-12T09:35:26.072Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Pages\\_ViewStart.cshtml",
-              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\_ViewStart.cshtml",
-              "RelativeToolTip": "WebApplication1\\Pages\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-06T07:57:17.307Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "EnergyDashboard.cshtml.cs",
-              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\EnergyDashboard.cshtml.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Pages\\EnergyDashboard.cshtml.cs",
-              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\EnergyDashboard.cshtml.cs",
-              "RelativeToolTip": "WebApplication1\\Pages\\EnergyDashboard.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T04:31:51.43Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "WebApplication1\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Properties\\launchSettings.json",
-              "RelativeToolTip": "WebApplication1\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACYAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-06T08:04:51.913Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
               "Title": "footer.css",
               "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\wwwroot\\css\\footer.css",
               "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\css\\footer.css",
@@ -368,43 +289,56 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Error.cshtml.cs",
-              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\Error.cshtml.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Error.cshtml.cs",
-              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\Error.cshtml.cs",
-              "RelativeToolTip": "WebApplication1\\Pages\\Error.cshtml.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T09:43:50.012Z"
+              "DocumentIndex": 7,
+              "Title": "html.cshtml",
+              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\html.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\html.cshtml",
+              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\html.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\html.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAA0AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T04:03:32.75Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "EnergyMonitoringModel.cs",
-              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Models\\EnergyMonitoringModel.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\EnergyMonitoringModel.cs",
-              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Models\\EnergyMonitoringModel.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\EnergyMonitoringModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAJAAAA",
+              "DocumentIndex": 15,
+              "Title": "EnergyDashboard.cshtml.cs",
+              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\EnergyDashboard.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\EnergyDashboard.cshtml.cs",
+              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\EnergyDashboard.cshtml.cs",
+              "RelativeToolTip": "WebApplication1\\Pages\\EnergyDashboard.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T04:10:22.619Z"
+              "WhenOpened": "2024-04-06T04:31:51.43Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "EnergyData.cs",
-              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Models\\EnergyData.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\EnergyData.cs",
-              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Models\\EnergyData.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\EnergyData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T03:51:42.542Z"
+              "DocumentIndex": 8,
+              "Title": "dashboard.css",
+              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\wwwroot\\css\\dashboard.css",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\css\\dashboard.css",
+              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\wwwroot\\css\\dashboard.css",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\css\\dashboard.css",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAAAKUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-12T14:17:47.862Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 11,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-24T07:04:10.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "site.css",
               "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\css\\site.css",
@@ -416,31 +350,211 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "navbar.css",
-              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\wwwroot\\css\\navbar.css",
-              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\css\\navbar.css",
-              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\wwwroot\\css\\navbar.css",
-              "RelativeToolTip": "WebApplication1\\wwwroot\\css\\navbar.css",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAAAGgAAAAAAAAA",
+              "DocumentIndex": 18,
+              "Title": "EnergyDataController.cs",
+              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Controllers\\EnergyDataController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\EnergyDataController.cs",
+              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Controllers\\EnergyDataController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\EnergyDataController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T03:54:54.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "bootstrap-grid.css",
+              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-12T14:52:53.739Z"
+              "WhenOpened": "2024-04-12T07:27:21.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T04:26:36.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.Development.json",
+              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\appsettings.Development.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-12T13:32:56.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-06T04:28:26.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Privacy.cshtml.cs",
+              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\Privacy.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Privacy.cshtml.cs",
+              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\Privacy.cshtml.cs",
+              "RelativeToolTip": "WebApplication1\\Pages\\Privacy.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T07:57:35.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Privacy.cshtml",
+              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T07:28:05.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Index.cshtml.cs",
+              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "WebApplication1\\Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T07:56:24.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T04:26:49.71Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "bootstrap.css",
-              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "RelativeToolTip": "WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "ViewState": "AQIAAKUAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-12T07:27:19.02Z"
+              "Title": "html.cshtml.cs",
+              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\html.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\html.cshtml.cs",
+              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\html.cshtml.cs",
+              "RelativeToolTip": "WebApplication1\\Pages\\html.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T04:10:42.583Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Error.cshtml",
+              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\Error.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T07:28:02.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T09:35:26.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebApplication1\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T07:57:17.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebApplication1\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACYAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-06T08:04:51.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Error.cshtml.cs",
+              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\Error.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Pages\\Error.cshtml.cs",
+              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Pages\\Error.cshtml.cs",
+              "RelativeToolTip": "WebApplication1\\Pages\\Error.cshtml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T09:43:50.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "EnergyMonitoringModel.cs",
+              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Models\\EnergyMonitoringModel.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\EnergyMonitoringModel.cs",
+              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Models\\EnergyMonitoringModel.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\EnergyMonitoringModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T04:10:22.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "EnergyData.cs",
+              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\Models\\EnergyData.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\EnergyData.cs",
+              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\Models\\EnergyData.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\EnergyData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T03:51:42.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "WebApplication1.csproj",
               "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
               "RelativeDocumentMoniker": "WebApplication1\\WebApplication1.csproj",
@@ -452,7 +566,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 33,
               "Title": "bootstrap-utilities.css",
               "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
               "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
@@ -464,7 +578,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 34,
               "Title": "bootstrap-reboot.css",
               "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
               "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
@@ -473,18 +587,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-04-12T07:27:24.945Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "bootstrap-grid.css",
-              "DocumentMoniker": "D:\\CDIO\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-              "ToolTip": "D:\\CDIO\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-              "RelativeToolTip": "WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-12T07:27:21.099Z"
             }
           ]
         }

@@ -18,6 +18,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\CDIO\WebApplication1\WebApplication1
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/CDIO/WebApplication1/WebApplication1/wwwroot/css - Copy/EnergyDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = d3d3cm9vdFxjc3MgLSBDb3B5XEVuZXJneURhc2hib2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CDIO/WebApplication1/WebApplication1/Pages/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CDIO/WebApplication1/WebApplication1/Pages/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/CDIO/WebApplication1/WebApplication1/Pages/EnergyDashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5lcmd5RGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

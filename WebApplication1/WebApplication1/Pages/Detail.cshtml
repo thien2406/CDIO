@@ -149,6 +149,32 @@
             display: inline-block; /* Allows the number input to sit alongside the slider */
         }
 
+        /* Đặt footer cố định ở dưới cùng của màn hình */
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333; /* Hoặc màu bạn muốn cho footer */
+            color: white; /* Màu chữ */
+            padding: 10px 0; /* Độ dày của footer, tùy chỉnh theo nhu cầu */
+            text-align: center;
+            z-index: 1000; /* Đảm bảo footer nằm trên các phần tử khác */
+        }
+
+        /* Phần tử chứa nội dung cần có padding dưới để không bị che bởi footer */
+        .content-wrapper {
+            padding-bottom: 60px; /* Độ cao tối thiểu của footer */
+        }
+
+        /* Đảm bảo nội dung toàn trang có đủ độ cao */
+        html, body {
+            min-height: 100%;
+            position: relative;
+        }
+
+
+
     </style>
 
 </head>
@@ -184,84 +210,73 @@
             </div>
         </div>
     </nav>
-    <div class="card-body">
-        Điện áp hiện tại: @Model.EnergyData.Voltage V<br />
-        <label for="minVoltage">Thiết lập điện áp tối thiểu:</label>
-        <input type="range" id="minVoltageSlider" name="minVoltage" min="0" max="100"
-               value="@Model.EnergyData.MinVoltage" oninput="minVoltageValue.value = this.value" />
-        <input type="number" id="minVoltageValue" name="minVoltage" min="0" max="100"
-               value="@Model.EnergyData.MinVoltage" oninput="minVoltageSlider.value = this.value" />
-        <br />
-
-        <label for="maxVoltage">Thiết lập điện áp tối đa:</label>
-        <input type="range" id="maxVoltageSlider" name="maxVoltage" min="0" max="100"
-               value="@Model.EnergyData.MaxVoltage" oninput="maxVoltageValue.value = this.value" />
-        <input type="number" id="maxVoltageValue" name="maxVoltage" min="0" max="100"
-               value="@Model.EnergyData.MaxVoltage" oninput="maxVoltageSlider.value = this.value" />
-        <br />
-    </div>
-
-    <div class="card-body">
-        Dòng điện hiện tại: @Model.EnergyData.Current A<br />
-        <label for="minCurrent">Thiết lập dòng điện tối thiểu:</label>
-        <input type="range" id="minCurrentSlider" name="minCurrent" min="0" max="100"
-               value="@Model.EnergyData.MinCurrent" oninput="minCurrentValue.value = this.value" />
-        <input type="number" id="minCurrentValue" name="minCurrent" min="0" max="100"
-               value="@Model.EnergyData.MinCurrent" oninput="minCurrentSlider.value = this.value" />
-        <br />
-
-        <label for="maxCurrent">Thiết lập dòng điện tối đa:</label>
-        <input type="range" id="maxCurrentSlider" name="maxCurrent" min="0" max="100"
-               value="@Model.EnergyData.MaxCurrent" oninput="maxCurrentValue.value = this.value" />
-        <input type="number" id="maxCurrentValue" name="maxCurrent" min="0" max="100"
-               value="@Model.EnergyData.MaxCurrent" oninput="maxCurrentSlider.value = this.value" />
-        <br />
-    </div>
-
     <div class="dashboard">
-        <div class="card" id="voltage-out">
-            <div class="card-header bg-primary">Voltage Out</div>
+        <div class="card" id="powerOut">
+            <div class="card-header bg-primary">Power Out: </div>
             <div class="card-body">0 V</div>
         </div>
-        <div class="card" id="current-input">
-            <div class="card-header bg-success">Power Out</div>
-            <div class="card-body">0 A</div>
+        <div class="card" id="batteryPercent">
+            <div class="card-header bg-primary">Battery Percent:</div>
+            <div class="card-body">0 V</div>
         </div>
-        <!-- ... Other cards ... -->
-        <div class="card toggle-card">
-            <div class="card-header">On and Off</div>
-            <div class="card-body">
-                <label class="switch">
-                    <input type="checkbox" checked>
-                    <span class="slider round"></span>
-                </label>
-            </div>
+        <div class="card" id="voltageInput">
+            <div class="card-header bg-primary">Voltage Input:</div>
+            <div class="card-body">0 V</div>
+        </div><div class="card" id="currentInput">
+            <div class="card-header bg-primary">Current Input:</div>
+            <div class="card-body">0 V</div>
         </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
-    <script>
-        document.querySelectorAll('.switch input').forEach((checkbox) => {
-            checkbox.addEventListener('change', function () {
-                console.log('Power is ' + (this.checked ? 'On' : 'Off'));
-                // You can also add code here to send this status to your server.
-            });
-        });
-    </script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var minVoltageInput = document.getElementById('min-voltage');
-            if (minVoltageInput) {
-                minVoltageInput.addEventListener('input', function () {
-                    // Lấy giá trị mới và làm gì đó với nó
-                    var minVoltage = this.value;
-                });
-            }
-        });
-    </script>
+        <div class="card" id="voltageOutput">
+            <div class="card-header bg-primary">Voltage Output:</div>
+            <div class="card-body">0 V</div>
+        </div>
+        <div class="card" id="currentOutput">
+            <div class="card-header bg-primary">Current Output:</div>
+            <div class="card-body">0 V</div>
+        </div>
+        <div class="card" id="temperature">
+            <div class="card-header bg-primary">Temperature:</div>
+            <div class="card-body">0 V</div>
+        </div>
+        <div class="card" id="Wh">
+            <div class="card-header bg-primary">Wh:</div>
+            <div class="card-body">0 V</div>
+        </div>
+        <div class="card" id="energySavings">
+            <div class="card-header bg-primary">Energy Savings:</div>
+            <div class="card-body">0 V</div>
+        </div>
+        <div class="card" id="voltageBatteryMin">
+            <div class="card-header bg-primary">Voltage Battery Min:</div>
+            <div class="card-body">0 V</div>
+        </div>
+        <div class="card" id="voltageBatteryMax">
+            <div class="card-header bg-primary">Voltage Battery Max:</div>
+            <div class="card-body">0 V</div>
+        </div>
+        <div class="card" id="currentCharging">
+            <div class="card-header bg-primary">Current Charging:</div>
+            <div class="card-body">0 V</div>
+        </div>
+        <div class="card" id="BCS">
+            <div class="card-header bg-primary">Battery Charging Status:</div>
+            <div class="card-body">0 V</div>
+        </div>
+        <div class="card" id="FCS">
+            <div class="card-header bg-primary">Full Charge Status:</div>
+            <div class="card-body">0 V</div>
+        </div>
+        <div class="card" id="LBS">
+            <div class="card-header bg-primary">Low Battery Status:</div>
+            <div class="card-body">0 V</div>
+        </div>
+        <div class="card" id="PIPS">
+            <div class="card-header bg-primary">PV Input Presence Status:</div>
+            <div class="card-body">0 V</div>
+        </div>
+        <div class="card" id="IPNet">
+            <div class="card-header bg-primary">IP Net:</div>
+            <div class="card-body">0 V</div>
         </div>
     </div>
     <footer class="bg-dark text-white">
@@ -277,13 +292,13 @@
                         <li><a href="#!" class="text-white"></a>Solar energy management</li>
                         <li><a href="#!" class="text-white"></a></li>
                         <li><a href="#!" class="text-white"></a></li>
-                        <li><a href="#!" class="text-white"></a></li> 
+                        <li><a href="#!" class="text-white"></a></li>
                     </ul>
                 </div>
                 <div class="col-md-3 mb-md-0 mb-3">
-                    <h5 class="text-uppercase">Useful Links</h5>    
+                    <h5 class="text-uppercase">Useful Links</h5>
                     <ul class="list-unstyled">
-                      <li><a href="#!" class="text-white">Your Account</a></li>
+                        <li><a href="#!" class="text-white">Your Account</a></li>
 
                     </ul>
                 </div>
@@ -293,13 +308,17 @@
                         <li><i class="fas fa-home mr-3"></i>000000 </li>
                         <li><i class="fas fa-envelope mr-3"></i> </li>
                         <li><i class="fas fa-phone mr-3"></i> </li>
-                        <li><i class="fas fa-print mr-3"></i> </li> 
+                        <li><i class="fas fa-print mr-3"></i> </li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
-    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
     <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
@@ -308,3 +327,4 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
