@@ -11,6 +11,6 @@
     "\\WebApplication1\\WebApplication1\\wwwroot\\lib\\jquery-validation",
     "\\WebApplication1\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive"
   ],
-  "SelectedNode": "\\WebApplication1\\WebApplication1\\Pages\\EnergyDashboard.cshtml",
+  "SelectedNode": "\\WebApplication1\\WebApplication1\\Pages\\EnergyDashboard.cshtml.cs",
   "PreviewInSolutionExplorer": false
 }
